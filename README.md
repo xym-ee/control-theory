@@ -2,7 +2,7 @@
 
 *感谢访问我的学习笔记。*
 
-*如果是在GitHub看到这些内容，那么可以前往[独立网页](https://xymeng.xyz/Math)获得更好的浏览体验。*
+*如果是在GitHub看到这些内容，那么可以前往[独立网页](https://xu.yumeng.website/math)获得更好的浏览体验。*
 
 *如果觉得我的笔记内容对您有帮助，那我会感到非常开心。*
 
@@ -10,7 +10,7 @@
 
 **如果我在内容上有理解错误，或者表达不严谨、符号不规范的地方，还请不吝指正。**
 
-<img src = "./images/wechat.png" width="100px" align="right">
+<img src = "./assets/images/wechat.png" width="100px" align="right">
 
 我的邮箱地址：[*m@njust.edu.cn*]()
 
@@ -50,7 +50,7 @@
 
 了解一下数学大厦大概是个什么样子，虽然我不可能都学完，但是在需要用到某些数学方法的时候知道找哪些参考书。参考[The Map of Mathematics](https://www.bilibili.com/video/BV1Ff4y1R7B7?from=search&seid=1405116911122618004)
 
-<img src="./images/map.jpg">
+<img src="./assets/images/map.jpg">
 
 
 这里的数学指现代数学，可以粗暴的理解成不是高中数学。
