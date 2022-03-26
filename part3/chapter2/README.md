@@ -5,7 +5,7 @@ sort: 2
 
 这一部分内容是《现代控制理论基础》课程的内容。
 
-(Advanced control system)
+(Modern Control System, Advanced control system)
 
 相比于单入单出系统，这里关注线性系统内部状态，基于状态空间进行分析，摸到了一点现代控制理论的影子。
 
@@ -17,7 +17,7 @@ n阶微分方程的输出由输入和n个初始条件决定，n阶系统所含�
 
 状态空间研究的是系统状态随时间的变化关系，“变化”在数学上就是求导，因此状态空间表达式首先是个矩阵微分方程，表达状态向量的变化规律。
 
-状态空间表达式是个矩阵方程，拆开来看是一系列**一阶微分方程**。一个高阶微分方程用一组一阶微分方程表示出来，大概是这么个意思。
+状态空间表达式(state space representation)是个矩阵方程，拆开来看是一系列**一阶微分方程**。一个高阶微分方程用一组一阶微分方程表示出来，大概是这么个意思。
 
 $$
 \begin{array}{l}
@@ -53,6 +53,18 @@ $$ x - \hat{x} = e $$
 这个误差是观测器和实际数据的误差，通过一定手段，让e靠近0，这时候就知道系统状态就出来了。
 
 求一个矩阵的特征值该怎么求呢？$$ Ax=\lambda x $$，导出来有$$ det(\lambda I-A)=0 $$，而前面传递函数矩阵，有个sI-A，所以前面特征函数求极点就是在求特征值。
+
+```tip
+In *Classical Control System*, a linear time invariant physical system is described with a transfer function model, which is equivalent to an nth-order Ordinary Differential Equation with zero initial value.
+
+Transfer function model provides a practical approach to design and analysis, and allows to use block diagrams to interconnect subsystem.
+
+In Modern Control System above system is described with an alternative model state variable system is described with an alternative model -- state variable model.
+
+The state variable model is a set of first-order ODEs, derived from above nth-order ODE by
+choosing a set variables—state variable, which is readily for computer solution and analysis.
+
+```
 
 ## 特征
 
