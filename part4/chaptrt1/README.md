@@ -1,13 +1,38 @@
 ---
 sort: 1
 ---
-# Introduction to Control System
+# 线性系统理论
 
-This chapter provides an introduction to the basic history of control theory and practice. The purpose of this chapter is to describe the general approach to designing and building a control system.
 
-We discuss open- and close-loop feedback control systems. 
+1  线性系统的状态空间描述（4学时）
+1.1 系统的状态空间描述*
+1.2 状态方程的对角线规范形和约当规范形
+1.3 由状态空间描述导出传递函数矩阵*
+2  线性系统的运动分析与传递函数的状态空间实现（4学时）
+2.1 线性定常系统的状态转移矩阵*
+2.2 线性定常系统的脉冲响应矩阵
+2.3 线性离散系统的运动分析*
+2.4 实现的一些基本概念和属性
+2.5 传递函数的一些典型实现
+3  线性系统的能控性和能观测性（8学时）*#
+3.1 能控性和能观测性定义
+3.2 线性连续时间系统的能控性判据
+3.3 线性连续时间系统的能观性判据
+3.4 对偶原理
+3.5 线性离散时间系统的能控性和能观测性
+3.6 能控规范形和能观测规范形：单输入--单输出情形
+3.7  线性系统的结构分解
+4  系统运动的稳定性（8学时）*#★
+4.1 李亚普诺夫意义下运动稳定性的一些基本概念
+4.2 李亚普诺夫第二方法的主要定理
+4.3 离散时间系统的状态运动稳定性及其判据
+5  线性反馈系统的时间域综合（8学时）*
+5.1 状态反馈和输出反馈
+5.2 极点配置问题：可配置条件和算法
+5.3 镇定问题：可镇定条件和算法
+5.4 状态重构问题和状态观测器
 
-Control system engineers are concerned with **understanding** and **controlling** segments of their environment, often called systems, to provide useful economic products for society.
-
-The twin goals of understanding and controlling are complementary because effective systems control requires that the systems be understood and modeled. 
+[1] 郑大钟，线性系统理论（第2版）. 清华大学出版社，2002
+[2] 陈晓平, 线性系统理论. 机械工业出版社，2011
+[3] 韩敏，线性系统理论和设计. 人民邮电出版社，2017
 
