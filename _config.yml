@@ -1,5 +1,5 @@
 title:        工程中的数学
-description:  xyMeng
+description:  X.Y.M
 
 theme: null
 
@@ -16,8 +16,8 @@ gittalk:
   clientID:     5c4a4805389461265123
   clientSecret: b13a143f197a4e12a8295c256b366d884ec661d8
   repo:         control-theory
-  owner:        Meng2025
-  admin:        Meng2025
+  owner:        xym-ee
+  admin:        xym-ee
   id:           comments
 
 readme_index:
