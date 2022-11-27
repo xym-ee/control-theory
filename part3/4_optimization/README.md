@@ -1,8 +1,9 @@
 ---
-sort: 1
+sort: 4
 ---
 # 优化理论
 
+参考教材 An Introduction of Optimization
 
 ## 知识所属数学分支
 
