@@ -1,17 +1,17 @@
 :root
 {
-	--toc-1: #e6e9eb;
-	--toc-2: #ccd2d8;
-	--toc-3: #b3bcc4;
-	--toc-4: #9aa5b1;
-	--toc-5: #e6e9eb;
-	--toc-6: #ccd2d8;
-	--toc-7: #b3bcc4;
-	--toc-8: #9aa5b1;
-	--toc-9: #e6e9eb;
-	--toc-10: #ccd2d8;
-	--toc-11: #b3bcc4;
-	--toc-12: #9aa5b1
+	--toc-1: #607d8b;
+	--toc-2: #78909c;
+	--toc-3: #90a4ae;
+	--toc-4: #b0bec5;
+	--toc-5: #cfd8dc;
+	--toc-6: #eceff1;
+	--toc-7: #eeeeee;
+	--toc-8: #f5f5f5;
+	--toc-9: #fafafa;
+	--toc-10: #fafafa;
+	--toc-11: #fafafa;
+	--toc-12: #fafafa;
 }/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */html
 
 
@@ -26,8 +26,26 @@ body
 	margin: 0
 }
 
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section
+article,aside,details,footer,header,main,menu,nav,section
 {
+	display: block
+}
+
+figure {
+	text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+figcaption
+{
+	font-family: "Times New Roman",黑体;
+	font-size: smaller;
 	display: block
 }
 
@@ -138,11 +156,6 @@ code,kbd,pre,samp
 {
 	font-family: monospace,monospace;
 	font-size: 1em
-}
-
-figure
-{
-	margin: 1em 40px
 }
 
 hr
@@ -260,7 +273,7 @@ body
 
 a
 {
-	color: #0366d6;
+	color: #0077ff;
 	text-decoration: none
 }
 
@@ -2176,10 +2189,17 @@ p.explain .minibutton
 	outline: none
 }
 
-.markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre,.markdown-body details
+.markdown-body p,.markdown-body dl,.markdown-body details
 {
 	margin-top: 0;
-	margin-bottom: 16px
+	margin-bottom: 0.5em;
+	text-indent: 2em
+}
+
+.markdown-body pre,.markdown-body ul,.markdown-body ol,.markdown-body table
+{
+	margin-top: 0;
+	margin-bottom: 16px	
 }
 
 .markdown-body hr
@@ -6327,7 +6347,7 @@ p.explain .minibutton
 .container
 {
 	font-weight: 400;
-	color: #3c454e;
+	color: #263238;
 	background: #fff
 }
 
@@ -6406,9 +6426,9 @@ p.explain .minibutton
 .toctree>ul .toc.current a.current
 {
 	font-weight: bold;
-	background: #fff;
-	border-top: 1px solid var(--toc-2);
-	border-bottom: 1px solid var(--toc-2)
+	background: #ffffff;
+	border-top: 2px solid var(--toc-2);
+	border-bottom: 2px solid var(--toc-2)
 }
 
 .toctree>ul>.toc.current
@@ -6642,14 +6662,14 @@ p.explain .minibutton
 
 .content-wrap
 {
-	font-size: 16px;
+	font-size: 10px;
 	background: #fff
 }
 
 .header
 {
 	color: #fff;
-	background: #2980b9
+	background: #263238
 }
 
 .header input
