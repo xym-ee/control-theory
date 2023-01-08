@@ -1,7 +1,15 @@
 ---
-sort: 3
+sort: 4
 ---
 # 智能控制
+
+
+
+
+
+
+
+
 
 Intelligent Control & Application
 
