@@ -1,7 +1,7 @@
 ---
 sort: 2
 ---
-# Optimal Control & State Estimation
+# Optimal Control
 
 三个部分
 - Optimization，最优化理论
