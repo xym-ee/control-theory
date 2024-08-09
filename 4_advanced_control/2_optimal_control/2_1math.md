@@ -1,7 +1,7 @@
 ---
 sort: 1
 ---
-# Calculus of Variations and Optimal Control 
+# 数学基础 
 
 被控系统的数学模型
 
