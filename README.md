@@ -13,7 +13,7 @@
 
 **如果我在内容上有理解错误，或者表达不严谨、符号不规范的地方，还请不吝指正。**
 
-<img src = "./assets/images/wechat.png" width="100px" align="right">
+<img src = "./images/wechat.png" width="100px" align="right">
 
 我的邮箱地址：<m@njust.edu.cn>
 
@@ -45,7 +45,7 @@
 数学这个话题比控制理论更加广泛，控制理论可以认为是应用数学的一个分支，在学习控制理论前，了解一下数学大厦大概是个什么样子是有必要的，虽然我也不大可能都学完，但是在实际问题中需要用到某些数学方法的会有个大概方向。
 
 <figure>
-    <img src="./assets/images/map.jpg" width=1920 />
+    <img src="./images/map.jpg" width=1920 />
     <figcaption>The Map of Mathematics</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@
 最开始的The Map of Mathematics里，控制理论缩在一个小角落，画了一个典型的反馈控制框图代表了这些内容，现在把这部分展开按照领域画出[the map of control theory](https://www.youtube.com/channel/UCq0imsn84ShAe9PBOFnoIrg)：
 
 <figure>
-    <img src="./assets/images/control_map.jpg" width=1920 />
+    <img src="./images/control_map.jpg" width=1920 />
 </figure>
 
 关于更加细节的介绍，单独有个部分做控制理论的科普
@@ -83,13 +83,13 @@
 控制理论就是用在工程里的数学，因此这张图也更全面的展示了控制理论与控制工程的脉络。
 
 <figure>
-    <img src="./assets/images/控制与工程1.jpg" width=1920 />
+    <img src="./images/控制与工程1.jpg" width=1920 />
 </figure>
 
 从控制工程师设计一个控制系统的角度来看，控制理论、控制工程、控制方法之间的联系：
 
 <figure>
-    <img src="./assets/images/控制与工程2.jpg" width=1920 />
+    <img src="./images/控制与工程2.jpg" width=1920 />
 </figure>
 
 控制理论几乎可以认为是数学上的问题，研究控制理论的人几乎都很**偏执的要用数学手段推导出一个系统最终是趋于稳定**的，比如微分方程的稳定性。
