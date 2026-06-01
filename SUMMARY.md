@@ -1,6 +1,6 @@
 # 目录
 
-- [机器中控制中的数学基础](./README.md)
+- [机器人控制中的数学基础](./README.md)
 - [基础数学](./1_basic_math/README.md)
   - [线性代数](./1_basic_math/1_linear_algebra/README.md)
     - [向量与空间基础](./1_basic_math/1_linear_algebra/1空间基础.md)
